@@ -93,3 +93,14 @@ nav a:hover {
     opacity: 1;
     transition: opacity 0.3s;
 }
+/*Mediaqueries*/
+@media (max-width: 425px) {
+    nav {
+        width: 100%;
+        flex-direction: column;
+        position: static;
+        height: auto;
+        right: auto;
+        left: auto;
+    }
+}
