@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url(/assets/bg.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+header {
+    position: relative;
+    height: 15vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width: 40vw;
+    height: 5vh;
+    padding: 4vh;
+    margin: 2vh auto;
+    background-color: #ffdfdfd0;
+    position: fixed;
+    top: auto;
+    right: 25vw;
+    left: 25vw;
+}
+nav a {
+    /* text-decoration: none; */
+    color: #3a3232;
+    font-weight: bold;
+    opacity: 0.7;
+}
+nav a:hover {
+    opacity: 1;
+}
+/*Section*/
+.art1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffffa8;
+    width: 90%;
+    margin: 2vh auto;
+    padding: 2vh 3vw;
+    text-align: justify;
+}
+.art1 h3 {
+    padding-bottom: 5px;
+} 
+.art1 ul {
+    padding: 2vh 3vw;
+}
+.art1 li {
+    list-style: none;
+}
+.link1 {
+    color: #004f4f;
+    font-weight: bold;
+}
+.tarjetas {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.card {
+    width: 32%;
+    height: 65vh;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 2vh;
+    transition: margin-top 0.2s;
+}
+.card p {
+    padding: 1rem;
+    text-align: justify;
+    opacity: 0.2;
+}
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 15px;
+}
+.card:hover {
+    box-shadow: 0 15px 10px #444444cc;
+    margin-top: 1vh;
+}
+.card p:hover{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
