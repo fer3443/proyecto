@@ -79,7 +79,7 @@ nav a:hover {
 .card p {
     padding: 1rem;
     text-align: justify;
-    opacity: 0.2;
+    opacity: 0.5;
 }
 .card img {
     width: 100%;
@@ -92,15 +92,4 @@ nav a:hover {
 .card p:hover{
     opacity: 1;
     transition: opacity 0.3s;
-}
-/*Mediaqueries*/
-@media (max-width: 425px) {
-    nav {
-        width: 100%;
-        flex-direction: column;
-        position: static;
-        height: auto;
-        right: auto;
-        left: auto;
-    }
 }
