@@ -96,7 +96,7 @@ nav a:hover {
 }
 /*Footer*/
 .container img {
-    width: 150px;
+    width: 130px;
     display: block;
     margin: 0 auto;
 }
@@ -107,7 +107,7 @@ nav a:hover {
     border-radius: 10px 10px 0 0;
     background-color: #ffffffa8;
     margin-top: 2vh;
-    padding: 2vh 3vw;
+    padding: 1vh 2vw;
     text-align: justify;
 }
 .col {
@@ -120,11 +120,14 @@ nav a:hover {
     margin-bottom: 1vh;
 }
 .links {
-    padding: 2vh 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .links a {
     font-size: 3rem;
+    padding: 15px;
+}
+.links a:hover {
+    
 }
