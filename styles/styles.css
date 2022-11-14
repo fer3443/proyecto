@@ -125,9 +125,12 @@ nav a:hover {
     align-items: center;
 }
 .links a {
-    font-size: 3rem;
-    padding: 15px;
+    font-size: 3.5rem;
+    padding: 1.5vh 1.5vw;
+    color: #3a3232;
+    opacity: 0.5;
 }
 .links a:hover {
-    
+    opacity: 1;
+    transition: opacity 0.3s;
 }
